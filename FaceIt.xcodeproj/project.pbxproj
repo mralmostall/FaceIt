@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A86C8E841CDC0A5A00C4B814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86C8E831CDC0A5A00C4B814 /* AppDelegate.swift */; };
-		A86C8E861CDC0A5A00C4B814 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86C8E851CDC0A5A00C4B814 /* ViewController.swift */; };
+		A86C8E861CDC0A5A00C4B814 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86C8E851CDC0A5A00C4B814 /* FaceViewController.swift */; };
 		A86C8E891CDC0A5A00C4B814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86C8E871CDC0A5A00C4B814 /* Main.storyboard */; };
 		A86C8E8B1CDC0A5A00C4B814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86C8E8A1CDC0A5A00C4B814 /* Assets.xcassets */; };
 		A86C8E8E1CDC0A5A00C4B814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86C8E8C1CDC0A5A00C4B814 /* LaunchScreen.storyboard */; };
+		A86C8E971CDC0B1B00C4B814 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86C8E961CDC0B1B00C4B814 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A86C8E801CDC0A5A00C4B814 /* FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86C8E831CDC0A5A00C4B814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A86C8E851CDC0A5A00C4B814 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A86C8E851CDC0A5A00C4B814 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		A86C8E881CDC0A5A00C4B814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A86C8E8A1CDC0A5A00C4B814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A86C8E8D1CDC0A5A00C4B814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A86C8E8F1CDC0A5A00C4B814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86C8E961CDC0B1B00C4B814 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		A86C8E821CDC0A5A00C4B814 /* FaceIt */ = {
 			isa = PBXGroup;
 			children = (
-				A86C8E831CDC0A5A00C4B814 /* AppDelegate.swift */,
-				A86C8E851CDC0A5A00C4B814 /* ViewController.swift */,
+				A86C8E951CDC0A7200C4B814 /* Supporting Files */,
+				A86C8E851CDC0A5A00C4B814 /* FaceViewController.swift */,
+				A86C8E961CDC0B1B00C4B814 /* FaceView.swift */,
 				A86C8E871CDC0A5A00C4B814 /* Main.storyboard */,
+			);
+			path = FaceIt;
+			sourceTree = "<group>";
+		};
+		A86C8E951CDC0A7200C4B814 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A86C8E831CDC0A5A00C4B814 /* AppDelegate.swift */,
 				A86C8E8A1CDC0A5A00C4B814 /* Assets.xcassets */,
 				A86C8E8C1CDC0A5A00C4B814 /* LaunchScreen.storyboard */,
 				A86C8E8F1CDC0A5A00C4B814 /* Info.plist */,
 			);
-			path = FaceIt;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A86C8E861CDC0A5A00C4B814 /* ViewController.swift in Sources */,
+				A86C8E861CDC0A5A00C4B814 /* FaceViewController.swift in Sources */,
 				A86C8E841CDC0A5A00C4B814 /* AppDelegate.swift in Sources */,
+				A86C8E971CDC0B1B00C4B814 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
